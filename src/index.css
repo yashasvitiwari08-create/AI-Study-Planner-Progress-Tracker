@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Core Brand & UI Palette — Premium AI Purple SaaS System */
+    --primary: #7C3AED;          /* Electric Purple */
+    --primary-hover: #6D28D9;    /* Hover Purple */
+    --primary-active: #5B21B6;   /* Deep Violet */
+    --secondary: #3B82F6;        /* AI Blue */
+    --accent: #06B6D4;           /* Cyan AI Accent */
+
+    /* Complete Primary Purple Shade Scale */
+    --purple-50: #F5F3FF;
+    --purple-100: #EDE9FE;
+    --purple-200: #DDD6FE;
+    --purple-300: #C4B5FD;
+    --purple-400: #A78BFA;
+    --purple-500: #8B5CF6;
+    --purple-600: #7C3AED;
+    --purple-700: #6D28D9;
+    --purple-800: #5B21B6;
+    --purple-900: #4C1D95;
+
+    /* Supporting AI Blue Shade Scale */
+    --blue-50: #EFF6FF;
+    --blue-100: #DBEAFE;
+    --blue-200: #BFDBFE;
+    --blue-500: #3B82F6;
+    --blue-600: #2563EB;
+    --blue-700: #1D4ED8;
+
+    /* Cyan AI Accent Scale */
+    --cyan-50: #ECFEFF;
+    --cyan-100: #CFFAFE;
+    --cyan-500: #06B6D4;
+    --cyan-600: #0891B2;
+
+    /* Neutral Surfaces & Typography */
+    --bg-canvas: #F8FAFC;        /* Soft White Background */
+    --bg-card: #FFFFFF;          /* Pure White Card */
+    --border-subtle: #E5E7EB;    /* Subtle Card Border */
+    --text-main: #0F172A;        /* Deep Navy Main Text */
+    --text-muted: #64748B;       /* Slate Gray Secondary Text */
+
+    /* Semantic Status Colors */
+    --success: #10B981;          /* Emerald - Completed Tasks */
+    --warning: #F59E0B;          /* Amber - Important Alerts */
+    --error: #EF4444;            /* Red - Urgent / Error */
+  }
+
+  body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Signature AI & Brand Gradients */
+.vibrant-gradient,
+.ai-gradient {
+  background: linear-gradient(135deg, #7C3AED 0%, #3B82F6 55%, #06B6D4 100%);
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, #7C3AED 0%, #3B82F6 100%);
+}
+
+.progress-gradient {
+  background: linear-gradient(90deg, #7C3AED 0%, #3B82F6 100%);
+}
+
+.ai-gradient-subtle,
+.vibrant-gradient-subtle {
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.06) 0%, rgba(59, 130, 246, 0.05) 55%, rgba(6, 182, 212, 0.05) 100%);
+}
+
+/* Primary Button & Surface System */
+.btn-primary {
+  background-color: #7C3AED;
+  color: #FFFFFF;
+  transition: all 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-primary:hover {
+  background-color: #6D28D9;
+}
+.btn-primary:active {
+  background-color: #5B21B6;
+}
+
+.card-surface {
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+}
+
+/* Refined Shadows */
+.vibrant-shadow {
+  box-shadow: 0 10px 24px -6px rgba(124, 58, 237, 0.14), 0 4px 10px -4px rgba(59, 130, 246, 0.08);
+}
+
+.vibrant-shadow-sm {
+  box-shadow: 0 4px 12px -2px rgba(124, 58, 237, 0.10);
+}
+
+.vibrant-shadow-lg {
+  box-shadow: 0 20px 32px -8px rgba(124, 58, 237, 0.18), 0 8px 16px -6px rgba(59, 130, 246, 0.10);
+}
+
+.vibrant-border {
+  border-color: rgba(124, 58, 237, 0.25);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.22);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(124, 58, 237, 0.45);
+}

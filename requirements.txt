@@ -1,0 +1,10 @@
+# Python Execution & Tooling Requirements for Coding Space
+# Compatible with Python 3.12+
+
+# Formatting & Linting (Optional backend tooling)
+black>=24.2.0
+flake8>=7.0.0
+
+# Scientific & Math Libraries (Safe standard imports)
+numpy>=1.26.0
+sympy>=1.12.0

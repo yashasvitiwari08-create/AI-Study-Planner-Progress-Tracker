@@ -1,0 +1,6 @@
+{
+  "name": "AI Study Planner & Progress Tracker",
+  "description": "Comprehensive AI-powered study planner, subject manager, coding workspace, progress analytics, and intelligent study tutor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
